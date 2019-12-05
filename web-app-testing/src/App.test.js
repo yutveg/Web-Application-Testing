@@ -4,7 +4,7 @@ import App from './App'
 
 test('test if display component rendering properly', () => {
     let { getByTestId } = render(<App />)
-    getByTestId(/display/i)
+    getByTestId(/^display$/i)
 })
 
 test('test if dashboard component rendering properly', () => {
